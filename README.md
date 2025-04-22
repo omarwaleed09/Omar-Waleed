@@ -7,7 +7,7 @@
   <h4 style="margin: 0;">I'm a third-year computer science and artificial intelligence student at Cairo University.</h4>
 </div>
 
-<p>-------------------------------------------------------------------------------------------------------------------------------------------------------------</p>
+***
 - 🌱 I’m currently learning Machine Learning Algorithms , Model evaluation
 
 - 🎓 I’m currently studying at college  
