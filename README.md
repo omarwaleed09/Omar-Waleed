@@ -1,13 +1,28 @@
 <h1 align="center">Hi 👋, I'm Omar Waleed</h1>
 <h3 align="center">A focused data scientist from Egypt working on machine learning and AI projects</h3>
 
-- 🌱 I’m currently learning **machine learning, model evaluation, feature engineering**
+<div align="center" style="display: flex; justify-content: center; align-items: center; gap: 20px; flex-wrap: wrap;">
+  <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="150" height="150" alt="AI GIF">
+  <div style="border-left: 2px solid #ccc; height: 100px;"></div>
+  <h4 style="margin: 0;">I'm a third-year computer science and artificial intelligence student at Cairo University.</h4>
+</div>
 
-- 📫 How to reach me **omarwaleed094@gmail.com**
+<p>-------------------------------------------------------------------------------------------------------------------------------------------------------------</p>
+- 🌱 I’m currently learning Machine Learning Algorithms , Model evaluation
 
-- 📄 Know about my experiences [https://drive.google.com/file/d/1ZpysRvjLc9etKLD82Czvgx60SEt4m-QP/view?usp=sharing](https://drive.google.com/file/d/1ZpysRvjLc9etKLD82Czvgx60SEt4m-QP/view?usp=sharing)
+- 🎓 I’m currently studying at college  
+  - **Web Technology** (HTTP, HTML, CSS, JavaScript, MVC, Python, Django)  
+  - **Machine Learning**  
+  - **Forecasting and Predictive Analysis**  
+  - **Data Mining**  
+  - **Artificial Intelligence**
 
-- ⚡ Fun fact **I think I am sociable 😊**
+- 📫 How to reach me: **omarwaleed094@gmail.com**
+
+- 📄 Know about my experiences: [CV Link](https://drive.google.com/file/d/1ZpysRvjLc9etKLD82Czvgx60SEt4m-QP/view?usp=sharing)
+
+- ⚡ Fun fact: **I think I am sociable**
+
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
