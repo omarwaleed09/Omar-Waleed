@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Online Library - Login</title>
+    <link rel="stylesheet" href="CSS/login.css">
+
+</head>
+<body>
+    <div class="nav_bar">
+        <a href="home.html" class="home_button">Home</a>
+        <a href="#"class="home_button">Login</a>
+        <a href="signup.html"class="home_button">Sign Up</a>
+    </div>
+
+<h1 style="font-weight: 800;margin-top: 90px;">Login</h1>
+
+<form onsubmit="handleLogin(event)">
+    <label for="username">Username:</label>
+    <input type="text" id="username" required>
+    <br>
+
+    <label for="password">Password:</label>
+    <input type="password" id="password" required>
+    <br>
+
+    <div>
+        <button type="submit" name="role">Login</button>
+        
+    </div>
+</form>
+
+<script src="JS/login.js"></script>
+<p>Don't have an account? <a href="signup.html" style="text-decoration: underline;">Sign up</a></p>
+
+</body>
+</html>

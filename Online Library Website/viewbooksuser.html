@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Online Library - View Books User</title>
+    <link rel="stylesheet" href="CSS/viewbooksuser.css">
+</head>
+<body>
+    <div class="nav_bar">
+        <a href="userhome.html" class="home_button">Home</a>
+        <a href="viewbooksuser.html" class="home_button"> View Books</a>
+        <a href="borrowedbooks.html" class="home_button"> Borrowed Books</a>
+        <a href="home.html" class="home_button">Log Out</a>
+    </div>
+    
+
+    <div class="home_txt">
+        <h1>Available Books</h1>
+        <div class="search-form">
+            <form>
+                <input type="text" id="search_query" name="search_query" placeholder="Search by title, author, or category">
+                <button type="submit">Search</button>
+            </form>
+        </div>
+    </div>
+
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Book Name</th>
+                <th>Author</th>
+                <th>Category</th>
+                <th>Description</th>
+                <th>Availability</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td><a href="bookdetails_user.html?id=1">How to Win Friends and Influence People</a></td>
+                <td>Dale Carnegie</td>
+                <td>Self-Help</td>
+                <td>A guide to improving social skills and building relationships.</td>
+                <td class="available">Available</td>
+                <td><button class="borrow-button" onclick="borrowBook(1, 'How to Win Friends and Influence People', 'Dale Carnegie', 'Self-Help')">Borrow</button></td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td><a href="bookdetails_user.html?id=2">The Psychology of Money</a></td>
+                <td>Morgan Housel</td>
+                <td>Finance</td>
+                <td>Explores how people think about money and make financial decisions.</td>
+                <td class="available">Available</td>
+                <td><button class="borrow-button" onclick="borrowBook(2, 'The Psychology of Money', 'Morgan Housel', 'Finance')">Borrow</button></td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td><a href="bookdetails_user.html?id=3">The Power Of Now</a></td>
+                <td>Eckhart Tolle</td>
+                <td>Spirituality</td>
+                <td>A guide to spiritual enlightenment that emphasizes the importance of living in the present moment to find true happiness and peace.</td>
+                <td class="available">Available</td>
+                <td><button class="borrow-button" onclick="borrowBook(3, 'The Power Of Now', 'Eckhart Tolle', 'Spirituality')">Borrow</button></td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td><a href="bookdetails_user.html?id=4">Coraline</a></td>
+                <td>Neil Gaiman</td>
+                <td>Fantasy</td>
+                <td>A dark fantasy novella about a girl who discovers a parallel world.</td>
+                <td class="available">Available</td>
+                <td><button class="borrow-button" onclick="borrowBook(4, 'Coraline', 'Neil Gaiman', 'Fantasy')">Borrow</button></td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td><a href="bookdetails_user.html?id=5">Harry Potter</a></td>
+                <td>J.K. Rowling</td>
+                <td>Fantasy</td>
+                <td>A series about a young wizard and his adventures at Hogwarts.</td>
+                <td class="available">Available</td>
+                <td><button class="borrow-button" onclick="borrowBook(5, 'Harry Potter', 'J.K. Rowling', 'Fantasy')">Borrow</button></td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td><a href="bookdetails_user.html?id=6">Diary of a Wimpy Kid</a></td>
+                <td>Jeff Kinney</td>
+                <td>Children's Fiction</td>
+                <td>A humorous story about the struggles of middle school life.</td>
+                <td class="available">Available</td>
+                <td><button class="borrow-button" onclick="borrowBook(6, 'Diary of a Wimpy Kid', 'Jeff Kinney', 'Childrens Fiction')">Borrow</button></td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td><a href="bookdetails_user.html?id=7">Crime and Punishment</a></td>
+                <td>Fyodor Dostoevsky</td>
+                <td>Classic</td>
+                <td>A psychological novel about guilt and redemption.</td>
+                <td class="available">Available</td>
+                <td><button class="borrow-button" onclick="borrowBook(7, 'Crime and Punishment', 'Fyodor Dostoevsky', 'Classic')">Borrow</button></td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td><a href="bookdetails_user.html?id=8">Dune</a></td>
+                <td>Frank Herbert</td>
+                <td>Science Fiction</td>
+                <td>A epic science fiction novel set in a distant future.</td>
+                <td class="available">Available</td>
+                <td><button class="borrow-button" onclick="borrowBook(8, 'Dune', 'Frank Herbert', 'Science Fiction')">Borrow</button></td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td><a href="bookdetails_user.html?id=9">Good Girl's Guide to Murder</a></td>
+                <td>Holly Jackson</td>
+                <td>Mystery</td>
+                <td>A thrilling mystery about a girl investigating a murder.</td>
+                <td class="available">Available</td>
+                <td><button class="borrow-button" onclick="borrowBook(9, 'Good Girl\'s Guide to Murder', 'Holly Jackson', 'Mystery')">Borrow</button></td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td><a href="bookdetails_user.html?id=10">Sherlock Holmes</a></td>
+                <td>Arthur Conan Doyle</td>
+                <td>Mystery</td>
+                <td>A collection of detective stories featuring the brilliant Sherlock Holmes.</td>
+                <td class="available">Available</td>
+                <td><button class="borrow-button" onclick="borrowBook(10, 'Sherlock Holmes', 'Arthur Conan Doyle', 'Mystery')">Borrow</button></td>
+            </tr>
+            <tr>
+                <td>11</td>
+                <td><a href="bookdetails_user.html?id=11">The Great Gatsby</a></td>
+                <td>F. Scott Fitzgerald</td>
+                <td>Classic</td>
+                <td>A tale of decadence and idealism in the Jazz Age.</td>
+                <td class="available">Available</td>
+                <td><button class="borrow-button" onclick="borrowBook(11, 'The Great Gatsby', 'F. Scott Fitzgerald', 'Classic')">Borrow</button></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <script src="JS/viewbooksuser.js"></script>
+    
+</body>
+</html>
