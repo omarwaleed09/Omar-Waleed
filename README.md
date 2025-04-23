@@ -2,7 +2,8 @@
 <h3 align="center">A focused data scientist from Egypt working on machine learning and AI projects</h3>
 
 <div align="center" style="display: flex; justify-content: center; align-items: center; gap: 20px; flex-wrap: wrap;">
-  <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="150" height="150" alt="AI GIF">
+  
+  <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExeXNyZ3RneDVtYW5yZzBrOHloODBmdnpxYnRlZzY0cjh2NjJnY2JlMCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ukMiDlCmdv2og/giphy.gif" width="150" height="150" alt="AI GIF">
   <div style="border-left: 2px solid #ccc; height: 100px;"></div>
   <h4 style="margin: 0;">I'm a third-year computer science and artificial intelligence student at Cairo University.</h4>
 </div>
