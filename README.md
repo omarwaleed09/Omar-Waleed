@@ -12,7 +12,7 @@
 - 🌱 I’m currently learning Machine Learning Algorithms , Model evaluation
 
 - 🎓 I’m currently studying at college  
-  - **Web Technology** (HTTP, HTML, CSS, JavaScript, MVC, Python (Back-end Programming Language), Django)  
+  - **Web Technology** (Internet Protocols, HTML, CSS, JavaScript, MVC, Python (Back-end Programming Language), Django)  
   - **Machine Learning**  
   - **Forecasting and Predictive Analysis**  
   - **Data Mining**  
