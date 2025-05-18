@@ -11,14 +11,20 @@ Play against the computer or let two AIs compete.
 - Graphical user interface using `tkinter`
 - AI uses Minimax algorithm with alpha-beta pruning
 
-## Screenshots
+
+
 
 ### Gomoku game
 
-![Gomoku1](screenshots/gomoku2.png)
+![Gomoku1](https://github.com/omarwaleed09/Omar-Waleed/blob/main/Gomoku-ai/Screenshots/gomoku1.png)
 
 
-![Gomoku2](screenshots/gomoko2.png)
+![Gomoku2](https://github.com/omarwaleed09/Omar-Waleed/blob/main/Gomoku-ai/Screenshots/gomoku2.png)
+
+## Related Repository
+
+For a more detailed AI implementation and separate modules, check out this repository:  
+https://github.com/omarwaleed09/gomoku-ai
 
 ## Requirements
 
