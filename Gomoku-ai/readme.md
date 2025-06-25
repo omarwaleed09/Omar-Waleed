@@ -37,7 +37,6 @@ For a modular version with deeper AI logic:
 - Python 3.x  
 - `tkinter` (usually preinstalled)  
 
-Optional (for image support):
 
 Optional (if using images):
 
