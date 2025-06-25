@@ -1,35 +1,43 @@
-# Gomoku AI
+# 🎯 Gomoku AI
 
-A Python implementation of the Gomoku (Five in a Row) game with AI.  
-Play against the computer or let two AIs compete.
+A Python-based Gomoku (Five in a Row) game with an AI opponent.  
+Play against the computer or watch two AIs battle it out.
 
-## Features
+---
 
-- Human vs AI
-- AI vs AI
-- 15x15 board
-- Graphical user interface using `tkinter`
-- AI uses Minimax algorithm with alpha-beta pruning
+## 🚀 Features
 
+- Human vs AI mode  
+- AI vs AI mode  
+- 15x15 game board  
+- GUI built with `tkinter`  
+- AI powered by **Minimax** + **Alpha-Beta Pruning**
 
+---
 
+## 🖼️ Screenshots
 
-### Gomoku game
+### Gameplay
 
 ![Gomoku1](https://github.com/omarwaleed09/Omar-Waleed/blob/main/Gomoku-ai/Screenshots/gomoku1.png)
 
-
 ![Gomoku2](https://github.com/omarwaleed09/Omar-Waleed/blob/main/Gomoku-ai/Screenshots/gomoku2.png)
 
-## Related Repository
+---
 
-For a more detailed AI implementation and separate modules, check out this repository:  
-https://github.com/omarwaleed09/gomoku-ai
+## 📂 Related Repository
 
-## Requirements
+For a modular version with deeper AI logic:  
+👉 [Advanced Gomoku AI](https://github.com/omarwaleed09/gomoku-ai)
 
-- Python 3.x
-- `tkinter` (included with standard Python)
+---
+
+## 🧰 Requirements
+
+- Python 3.x  
+- `tkinter` (usually preinstalled)  
+
+Optional (for image support):
 
 Optional (if using images):
 
