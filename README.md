@@ -20,7 +20,7 @@
 
 - 📫 How to reach me: **omarwaleed094@gmail.com**
 
-- 📄 Know about my experiences: [CV Link](https://drive.google.com/file/d/1L1go2A85H-36f27uqEkCCT0E8PRt_F47/view?usp=drive_link)
+- 📄 Know about my experiences: [CV Link](https://drive.google.com/file/d/1UDIW9pezIuC4u8FwVBjnDUCC9XA92s6b/view?usp=drive_link)
 
 - ⚡ Fun fact: **I think I am sociable**
 
